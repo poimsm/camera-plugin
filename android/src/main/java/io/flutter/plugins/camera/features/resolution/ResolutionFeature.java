@@ -231,6 +231,11 @@ public class ResolutionFeature extends CameraFeature<ResolutionPreset> {
 
   private void configureResolution(ResolutionPreset resolutionPreset, int cameraId)
       throws IndexOutOfBoundsException {
+
+        print('configureResolution---------------------------1 ')
+        print('configureResolution---------------------------2')
+        print('configureResolution---------------------------3')
+        print('configureResolution---------------------------4')
     if (!checkIsSupported()) {
       return;
     }
